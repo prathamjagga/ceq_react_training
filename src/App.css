@@ -1,0 +1,108 @@
+.app-wrapper {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+}
+
+.App {
+	background-color: #121212;
+	color: #fff;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	width: 40vw;
+}
+
+/* Input for New Task */
+.task-input {
+	padding: 10px;
+	border: none;
+	background-color: #1e1e1e;
+	color: #fff;
+}
+
+.add-task-button {
+	background-color: #009688;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 20px 20px;
+	transition: background-color 0.2s;
+	width: 100px;
+}
+
+.add-task-button:hover {
+	background-color: #007567;
+}
+
+.tasks-heading {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.task-container {
+	background-color: #1e1e1e;
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+}
+
+.task-title {
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+.remove-task-button {
+	background-color: tomato;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 5px 0;
+	transition: background-color 0.2s;
+	width: 100px;
+}
+
+.remove-task-button:hover {
+	background-color: tomato;
+}
+
+.edit-task-button {
+	background-color: #009688;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 5px 10px;
+	transition: background-color 0.2s;
+	width: 100px;
+}
+
+.edit-task-button:hover {
+	background-color: #009688;
+}
+
+.status-label {
+	margin: 5px 0;
+}
+
+.status-select {
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #1e1e1e;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+}
+
+.status-select option {
+	background-color: #1e1e1e;
+}

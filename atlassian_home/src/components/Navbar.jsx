@@ -8,10 +8,10 @@ function Navbar() {
 				<Link to="/">Home</Link>
 			</button>
 			<button>
-				<Link to="/contact">Contact</Link>
+				<Link to="/page1"> go to Page1</Link>
 			</button>
 			<button>
-				<Link to="/about">About</Link>
+				<Link to="/page2">go to Page 2</Link>
 			</button>
 		</div>
 	);
